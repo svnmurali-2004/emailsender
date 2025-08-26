@@ -9,7 +9,7 @@ ENV N8N_BASIC_AUTH_PASSWORD=strongpassword
 # Bind to all interfaces & dynamic port
 ENV N8N_HOST=0.0.0.0
 ENV N8N_PORT=$PORT
-ENV N8N_PROTOCOL=http   # Render provides HTTPS automatically
+ENV N8N_PROTOCOL=http
 
 # SMTP configuration
 ENV N8N_EMAIL_SMTP_HOST=smtp.yourprovider.com
